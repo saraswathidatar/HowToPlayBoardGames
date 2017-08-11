@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.admin.learnchess.Queen"
+    tools:showIn="@layout/activity_queen">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView4"
+        android:layout_alignParentTop="true"
+        android:src="@mipmap/queen"
+        android:layout_above="@+id/textView21"
+        android:layout_alignParentStart="true"
+        android:layout_alignEnd="@+id/textView21" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageButton13"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:src="@mipmap/home"
+        android:background="@null"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="The Queen"
+        android:id="@+id/textView19"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/textView20" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageButton14"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:src="@mipmap/speaker"
+        android:background="@null"
+        android:layout_alignBottom="@+id/imageButton13"
+        android:layout_marginStart="34dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="The Queen is often considered the most powerful chess piece on the chessboard. She is placed next to the king, on her own color. The game is not over when she is lost, but if your opponent has a Queen and you do not, you may find yourself at a considerable disadvantage! "
+        android:id="@+id/textView20"
+        android:layout_below="@+id/textView19"
+        android:layout_toEndOf="@+id/imageView4" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Movement"
+        android:id="@+id/textView21"
+        android:layout_below="@+id/textView20"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Like the King, the Queen can move in any direction. However, she is not limited to just one space - she can move any number of spaces in any direction, as long as she is not obstructed by another chess piece. Of course, if that obstruction is an opposing chess piece, she is free to capture it!"
+        android:id="@+id/textView22"
+        android:layout_below="@+id/textView21"
+        android:layout_alignParentStart="true" />
+
+</RelativeLayout>

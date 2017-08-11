@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.admin.learnchess">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".SetupTheBoard"
+            android:label="@string/title_activity_setup_the_board"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".PiecesList" />
+        <activity
+            android:name=".Error"
+            android:label="@string/title_activity_error"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Pawn"
+            android:label="@string/title_activity_pawn"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Rook"
+            android:label="@string/title_activity_rook"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".About"
+            android:label="@string/title_activity_about"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Help"
+            android:label="@string/title_activity_help"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Knight"
+            android:label="@string/title_activity_knight"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Bishop"
+            android:label="@string/title_activity_bishop"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Queen"
+            android:label="@string/title_activity_queen"
+            android:theme="@style/AppTheme.NoActionBar" />
+
+        <activity android:name=".King"
+            android:label="@string/title_activity_king"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+    </application>
+
+</manifest>

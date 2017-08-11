@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.admin.learnchess.Knight"
+    tools:showIn="@layout/activity_knight">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView4"
+        android:layout_alignParentTop="true"
+        android:src="@mipmap/knight"
+        android:layout_above="@+id/textView21"
+        android:layout_alignParentStart="true"
+        android:layout_alignEnd="@+id/textView21" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageButton13"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:src="@mipmap/home"
+        android:background="@null"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="The Knight"
+        android:id="@+id/textView19"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/textView20" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageButton14"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:src="@mipmap/speaker"
+        android:background="@null"
+        android:layout_alignBottom="@+id/imageButton13"
+        android:layout_marginStart="34dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="The knight is a piece that typically represents armed cavalry.  It is often represented by the head of a horse.  Each player starts with two knichs.  Each begining on the back row one square in."
+        android:id="@+id/textView20"
+        android:layout_below="@+id/textView19"
+        android:layout_toEndOf="@+id/imageView4" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Movement"
+        android:id="@+id/textView21"
+        android:layout_below="@+id/textView20"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="The knight can move either two squares horizontally and one square vertically, or two squares vertically and one square horizontally.  Unlike other pieces it can jump over pieces in the squares it passes.  It cannot move to a square that is already occupied by allied pieces.  If it move to a square occupied by an enemy piece it captures that piece."
+        android:id="@+id/textView22"
+        android:layout_below="@+id/textView21"
+        android:layout_alignParentStart="true" />
+
+</RelativeLayout>
