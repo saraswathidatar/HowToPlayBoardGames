@@ -1,4 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
+
+<!-- Copyright (c) Saraswathi Datar
+   This work is available under the "MIT License".
+   Please see the file LICENSE for license terms
+-->
+
+<!-- Includes essential information about app including
+    package, components and libraries linked -->
+     
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.admin.learnchess">
 
