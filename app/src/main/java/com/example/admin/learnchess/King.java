@@ -1,3 +1,13 @@
+/** Copyright (c) Saraswathi Datar
+  * This work is available under the "MIT License".
+  * Please see the file LICENSE for license terms
+  */
+
+/** Implements TextToSpeech interface and initiates
+  * listener, speaks out the text written in layout
+  * content_king.xml file.
+  */
+
 package com.example.admin.learnchess;
 
 import android.content.Intent;

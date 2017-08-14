@@ -1,3 +1,13 @@
+/** Copyright (c) Saraswathi Datar
+  * This work is available under the "MIT License".
+  * Please see the file LICENSE for license terms
+  */
+
+/** Error page is implemented as Challenges option from
+  * main menu which included adding a youtube api
+  * has some issues and is not working.
+  */
+
 package com.example.admin.learnchess;
 
 import android.content.Intent;
