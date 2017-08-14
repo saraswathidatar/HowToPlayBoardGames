@@ -1,3 +1,12 @@
+/** Copyright (c) Saraswathi Datar
+  * This work is available under the "MIT License".
+  * Please see the file LICENSE for license terms
+  */
+
+/* Specifies the list of pieces in chess and their
+ * related information.
+ */
+
 package com.example.admin.learnchess;
 
 import android.content.Intent;
