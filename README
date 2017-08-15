@@ -2,7 +2,8 @@ HowToPlayBoardGames
 
 Copyright (c) 2017 Saraswathi Govind Datar NA
 
-This project is licensed under the "MIT License". Please see the file LICENSE in this distribution for license terms. https://github.com/saraswathidatar/HowToPlayBoardGames/blob/master/LICENSE
+This project is licensed under the "MIT License". Please see the file LICENSE in this distribution for license terms. 
+https://github.com/saraswathidatar/HowToPlayBoardGames/blob/master2/LICENSE
 
 Introduction 
 How To Play Board Games is an android application which specifies rules that are used to play some of the popular board games such as chess, sequence, catan etc. For example, Playing chess would include Board Setup that helps user to setup a board, Pieces that list all the pieces of the game and when clicked on individual Piece describes its moves and special rules with suitable pictures and voice messages, Special rules for all the pieces of the game and Challenges set for the game.
@@ -13,8 +14,16 @@ Project Status
 3. Embedding videos is where I am facing some difficulty. 
 4. Also including some interesting challenges to play with is something I am not sure to include. 
 
-.apk File
-.apk file can be used to install the app on your phone. You can get the .apk file from: https://github.com/saraswathidatar/HowToPlayBoardGames/blob/master/app-release.apk
+Screenshots
+https://github.com/saraswathidatar/HowToPlayBoardGames/tree/master2/Screenshots
+
+Technical Details
+This app was developed in Android with API target 15(4.0.3) Android IceCreamSandwich and tested in KitKat (4.4.2)
+
+Source Code
+https://github.com/saraswathidatar/HowToPlayBoardGames/tree/master2/app
+Java files can be found in https://github.com/saraswathidatar/HowToPlayBoardGames/tree/master2/app/src/main/java/com/example/admin/learnchess
+Layout files can be found in https://github.com/saraswathidatar/HowToPlayBoardGames/tree/master2/app/src/main/res/layout
 
 Build Instructions
 1. Install Android SDK https://developer.android.com/studio/index.html (Also, make sure you have jdk installed in your machine) 
@@ -23,3 +32,39 @@ Build Instructions
 4. Locate the .apk file from your local directory and copy it to your phone. 
 5. In your phone,Go to Apps-> My Files and install the .apk file. 
 6. After completing installation, open the app from Apps and start exploring. 
+
+.apk File
+.apk file can be used to install the app on your phone. You can get the .apk file from: 
+https://github.com/saraswathidatar/HowToPlayBoardGames/blob/master2/app-release.apk
+
+Future enhancements
+1. Would be nice to have images inside the piece which when pressed played animations relevant to the section the user is in
+2. Embedding videos and a finished product (including a list of challenges for users to play with)
+3. change the icons to match thematically, and add a background to make the application more visually interesting
+4. include an email facility 
+
+Bug or Issue Tracker
+You can report the bugs in the following link: https://github.com/saraswathidatar/HowToPlayBoardGames/issues
+
+References:
+1. Text to speech- https://code.tutsplus.com/tutorials/android-sdk-using-the-text-to-speech-engine--mobile-8540
+2. Reusing layouts- https://developer.android.com/training/improving-layouts/reusing-layouts.html
+3. Activity lifecycle- https://developer.android.com/guide/components/activities/activity-lifecycle.html
+4. Orientation changes- https://developer.android.com/guide/topics/resources/runtime-changes.html
+-code.hootsuite.com/orientation-changes-on-android/
+5. Building dynamic UI using fragments- https://developer.android.com/training/basics/fragments/fragment-ui.html
+6. Adding youtube player to android- https://www.youtube.com/watch?v=3LiubyYpEUk
+-http://stacktips.com/tutorials/android/youtubeplayerview-example-in-android-using-youtube-api
+7. Github with android- https://www.londonappdeveloper.com/how-to-use-git-hub-with-android-studio/
+
+Final Presentation
+
+
+Author
+Saraswathi Govind Datar NA
+
+Contact information:
+For any queries related to this project, please feel free to contact Email: saras3@pdx.edu
+
+
+
