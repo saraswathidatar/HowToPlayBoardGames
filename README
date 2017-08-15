@@ -2,11 +2,7 @@ HowToPlayBoardGames
 
 Copyright (c) 2017 Saraswathi Govind Datar NA
 
-<<<<<<< HEAD
 This project is licensed under the "MIT License". Please see the file LICENSE in this distribution for license terms.
-=======
-This project is licensed under the "MIT License". Please see the file LICENSE in this distribution for license terms. 
->>>>>>> 8429defb518411a752bb494dc3a23d47530a0a69
 https://github.com/saraswathidatar/HowToPlayBoardGames/blob/master2/LICENSE
 
 Introduction
@@ -30,7 +26,6 @@ Java files can be found in https://github.com/saraswathidatar/HowToPlayBoardGame
 Layout files can be found in https://github.com/saraswathidatar/HowToPlayBoardGames/tree/master2/app/src/main/res/layout
 
 Build Instructions
-<<<<<<< HEAD
 1. Install Android SDK https://developer.android.com/studio/index.html (Also, make sure you have jdk installed in your machine)
 2. Open Android SDK, Begin a new project (eg: MyProject). Clone or Download the source code from the github repository. Please, make sure that the package name in the src files and the manifest file is "com.example.admin.learnchess"
 3. Build the application and run it using the emulator. This will create a .apk file which can be installed to your Android phone.
@@ -40,28 +35,13 @@ Build Instructions
 
 .apk File
 .apk file can be used to install the app on your phone. You can get the .apk file from:
-=======
-1. Install Android SDK https://developer.android.com/studio/index.html (Also, make sure you have jdk installed in your machine) 
-2. Open Android SDK, Begin a new project (eg: MyProject). Clone or Download the source code from the github repository. Please, make sure that the package name in the src files and the manifest file is "com.example.admin.learnchess" 
-3. Build the application and run it using the emulator. This will create a .apk file which can be installed to your Android phone. 
-4. Locate the .apk file from your local directory and copy it to your phone. 
-5. In your phone,Go to Apps-> My Files and install the .apk file. 
-6. After completing installation, open the app from Apps and start exploring. 
-
-.apk File
-.apk file can be used to install the app on your phone. You can get the .apk file from: 
->>>>>>> 8429defb518411a752bb494dc3a23d47530a0a69
 https://github.com/saraswathidatar/HowToPlayBoardGames/blob/master2/app-release.apk
 
 Future enhancements
 1. Would be nice to have images inside the piece which when pressed played animations relevant to the section the user is in
 2. Embedding videos and a finished product (including a list of challenges for users to play with)
 3. change the icons to match thematically, and add a background to make the application more visually interesting
-<<<<<<< HEAD
 4. include an email facility
-=======
-4. include an email facility 
->>>>>>> 8429defb518411a752bb494dc3a23d47530a0a69
 
 Bug or Issue Tracker
 You can report the bugs in the following link: https://github.com/saraswathidatar/HowToPlayBoardGames/issues
@@ -85,9 +65,3 @@ Saraswathi Govind Datar NA
 
 Contact information:
 For any queries related to this project, please feel free to contact Email: saras3@pdx.edu
-<<<<<<< HEAD
-=======
-
-
-
->>>>>>> 8429defb518411a752bb494dc3a23d47530a0a69
