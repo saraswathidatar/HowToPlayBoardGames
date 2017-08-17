@@ -3,9 +3,10 @@
   * Please see the file LICENSE for license terms
   */
 
-/** Error page is implemented as Challenges option from
-  * main menu which included adding a youtube api
-  * has some issues and is not working.
+/** Challenges option from main menu has a youtube player
+  * for lessons on rules and movement. Currently, it is working
+  * on emulator and not on phone so I have this error page. Once I
+  * have it running, will update the code.
   */
 
 package com.example.admin.learnchess;

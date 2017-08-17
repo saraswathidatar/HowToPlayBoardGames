@@ -3,7 +3,8 @@
   * Please see the file LICENSE for license terms
   */
 
-/** Implements TextToSpeech interface and initiates
+/** Includes a brief description and movement of pawn.
+  * Implements TextToSpeech interface and initiates
   * listener, speaks out the text written in layout
   * content_pawn.xml file.
   */

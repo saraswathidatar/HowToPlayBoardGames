@@ -3,7 +3,8 @@
   * Please see the file LICENSE for license terms
   */
 
-/** Implements TextToSpeech interface and initiates
+/** Includes brief description on how to set up the board.
+  * Implements TextToSpeech interface and initiates
   * listener, speaks out the text written in layout
   * content_setup_the_board.xml file.
   */

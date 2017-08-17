@@ -3,6 +3,10 @@
   * Please see the file LICENSE for license terms
   */
 
+/** This is the first screen that gets launched when app
+  * starts. Registers all the activities used in the app
+  */
+
 package com.example.admin.learnchess;
 
 import android.content.Intent;

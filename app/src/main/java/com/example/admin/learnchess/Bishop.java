@@ -3,7 +3,8 @@
   * Please see the file LICENSE for license terms
   */
 
-/** Implements TextToSpeech interface and initiates
+/** Includes a brief description and movement of bishop.
+  * Implements TextToSpeech interface and initiates
   * listener, speaks out the text written in layout
   * content_bishop.xml file.
   */
@@ -22,9 +23,6 @@ import android.widget.TextView;
 
 import java.util.Locale;
 
-/**
- * Created by saraswathi on 8/5/2016.
- */
 public class Bishop extends AppCompatActivity implements TextToSpeech.OnInitListener {
     private TextToSpeech tts;
     private ImageButton btnSpeak;
