@@ -6,7 +6,7 @@ This project is licensed under the "MIT License". Please see the file LICENSE in
 https://github.com/saraswathidatar/HowToPlayBoardGames/blob/master2/LICENSE
 
 Introduction
-How To Play Board Games is an android application which specifies rules that are used to play some of the popular board games such as chess, sequence, catan etc. For example, Playing chess would include Board Setup that helps user to setup a board, Pieces that list all the pieces of the game and when clicked on individual Piece describes its moves and special rules with suitable pictures and voice messages, Special rules for all the pieces of the game and Challenges set for the game.
+How To Play Board Games is an android application which specifies rules that are used to play some of the popular board games such as chess, sequence, catan etc. As a prototype, I started with playing chess with Board Setup that helps user to setup a board, Pieces that list all the pieces of the game and when clicked on individual Piece describes its moves and special rules with suitable pictures and voice messages, Special rules for all the pieces of the game and Challenges set for the game. There are many How to learn chess apps in the market, my goal is to have rules for a consolidated set of board games(for which I haven't seen any app).
 
 Project Status
 1. Initially when I planned to scale the application by increasing the number of board games as I proceed, I realised that its a lot of options for a single game which consequently increases the number of tabs. Although I intend to provide a home button on every tab so that user can return to home page without having to navigate much, scaling seems to be cumbersome. So I am trying to work around that.
@@ -38,16 +38,16 @@ Build Instructions
 https://github.com/saraswathidatar/HowToPlayBoardGames/blob/master2/app-release.apk
 
 Future enhancements
-1. Would be nice to have images inside the piece which when pressed played animations relevant to the section the user is in
-2. Embedding videos and a finished product (including a list of challenges for users to play with)
-3. change the icons to match thematically, and add a background to make the application more visually interesting
-4. include an email facility
+1. Scale the app to include other board games
+2. Include a list of challenges for users to play with
+3. Add gifs and animated pictures for movement of pieces
+4. include an email facility to receive notifications on what was the last rule you were reading
 
 Bug or Issue Tracker
 You can report the bugs in the following link: https://github.com/saraswathidatar/HowToPlayBoardGames/issues
 
 References:
-1. Text to speech- https://code.tutsplus.com/tutorials/android-sdk-using-the-text-to-speech-engine--mobile-8540
+1. Text to speech- https://developer.android.com/reference/android/speech/tts/TextToSpeech.html
 2. Reusing layouts- https://developer.android.com/training/improving-layouts/reusing-layouts.html
 3. Activity lifecycle- https://developer.android.com/guide/components/activities/activity-lifecycle.html
 4. Orientation changes- https://developer.android.com/guide/topics/resources/runtime-changes.html
