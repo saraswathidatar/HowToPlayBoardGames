@@ -1,3 +1,8 @@
+/** Copyright (c) Saraswathi Datar
+  * This work is available under the "MIT License".
+  * Please see the file LICENSE for license terms
+  */
+
 package com.example.admin.learnchess;
 
 import android.app.Application;

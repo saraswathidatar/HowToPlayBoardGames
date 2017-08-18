@@ -23,9 +23,6 @@ import android.widget.TextView;
 
 import java.util.Locale;
 
-/**
- * Created by saraswathi on 8/5/2016.
- */
 public class Queen extends AppCompatActivity implements TextToSpeech.OnInitListener {
     private TextToSpeech tts;
     private ImageButton btnSpeak;
